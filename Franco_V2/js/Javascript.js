@@ -37,7 +37,7 @@ $(document).ready(function(){
   	$('.seach_box').removeClass("seach__active"); 
 	e.preventDefault();
 	});
-
+  
   $("#cart_add").click(function(e) {	
   		$('.shop__cart__main').addClass('shop__cart__main__click');
 		e.preventDefault();

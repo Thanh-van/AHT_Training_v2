@@ -713,8 +713,8 @@ margin-right: -11px;
 .footer__shop p{
 	letter-spacing: 0px
 }
-.footer a:hover{
-	border-bottom: 1px solid #ffffff;
+.footer a:hover,.footer li a:hover{
+	text-decoration: underline;
 	color: white;
 }
 i.fa-phone {
