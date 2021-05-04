@@ -41,7 +41,7 @@
 	.container{
 		max-width: 85%;
 	}
-	.blog__main-item > .main-menu>li{		max-width: 270px;	}
+	.blog__main-item > .main-menu>li{		width: 270px;	}
 	.slide_defaul {  margin-left: -902px;	}
 	.blog__item-text-name {margin-right: 10px;}
   .blog__item-text-name h3 {  font-size: 15px;	}
@@ -66,7 +66,7 @@
 /*-----------------Mobile---------------------*/
 
 @media only screen and (max-width: 768px) {
-	.header__nav-link-shop {    width: 40%;}
+	.header__nav-link-shop {   width: 40%;}
 	.main-menu li.nav-bars{	display: inline-block;}
 	.header__nav-link-menu{
 		text-align: center;
@@ -94,7 +94,11 @@
 		grid-gap: 0 2%;
 	}
 	.header__nav-link-logo{ 	width: 50%; }
-	.container{ max-width: 85%; }
+	.container{ 
+		max-width: none;
+		margin: 0 15px;
+		width: auto;
+	}
 	.header__nav-link .main-menu li{ margin-right: 5px;}
 	.banner__text h2{ 	font-size: 18px; }
 	.banner__item1 h2{/*! font-size: 25px; */}
@@ -122,7 +126,7 @@
 		grid-column: 1;
 		grid-row: 1;
 	}
-	.blog__main-item > .main-menu>li{ max-width: 320px; }
+	.blog__main-item > .main-menu>li{ width: 320px; }
 	.slide_defaul {  margin-left: -1030px;	}
 	.blog__backgroup {		margin-top: 0; }
 	.featured__franco{	margin-top: 10px; }
@@ -132,6 +136,10 @@
 }
 
 @media only screen and (max-width: 425px) {
+	.header__top-main{
+		height: auto;
+		padding: 2% 0;
+	}
 	.header__nav-link-shop li {
     margin-left: 10px;
   }
@@ -156,7 +164,7 @@ display: -webkit-box;
 			grid-gap: 0 4%;
       grid-template-columns: repeat(2,48%);
 	}
-	.blog__main-item > .main-menu>li{ width: 170px;
+	.blog__main-item > .main-menu>li{ width: 185px;
     	margin-right: 10px;
 	}
 	.blog__item-text-cmt li a {
@@ -167,11 +175,16 @@ display: -webkit-box;
 	.blog__main-text {		padding-top: 35px;}
 }
 @media only screen and (max-width: 375px) {
-	
+	.blog__icon {
+		margin-top: 10px;
+	}
+	.blog__backgroup{
+		height: 550px;
+	}
 	.header__top-main{padding: 2% 0;}
 	.header__nav-link-shop > .main-menu > li {  margin-right: 0px;  }
 	.blog__main-item > .main-menu>li{ 
-		 width: 319px !important;
+		 width: 350px;
 	   margin-right: 10px;
 	}
 	.blog__item-text-cmt li a {   margin-right: 10px;	}
