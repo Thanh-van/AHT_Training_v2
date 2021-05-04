@@ -364,7 +364,7 @@ h2.text-pacifico{
 }
 .featured__item-text{	    padding-top: 7px;}
 .featured__item-price p,.featured__item-text{  line-height: 26px;	}
-.featured__item-text-name h2{
+.featured__item-text-name a{
 	font-size: 14px;
 	font-family: "Montserrat";
 	color: rgb(0, 0, 0);
